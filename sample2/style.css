@@ -1,0 +1,32 @@
+img{
+	max-width: 100%;
+	height: auto;
+	background: lightblue;
+	background: radial-gradient(white 30%,lightblue 70%);
+}
+
+.fa-star,
+.fa-star-half{
+	color: yellowgreen;
+	padding: 3% 0;
+}
+.video-fluid{
+	height: 500px;
+	width: 1500px;
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+
+}
+@media screen (min-width: 320px) and (max-width: 425px){
+.video-fluid {
+    height: 500px;
+    width: 931px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+	}
+}
